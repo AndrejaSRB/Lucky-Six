@@ -1,0 +1,36 @@
+.select-option {
+  span {
+      color: white;
+      display: block;
+      margin-bottom: 20px;
+      position: relative;
+      font-size: 12px;
+      text-transform: uppercase;
+      &:after{
+        border-bottom: 1px solid skyblue;
+        content: "";
+        display: block;
+        width: 75px;
+        height: 3px;
+        position: absolute;
+        left: 57px;
+        top: 26px;
+    }
+  }
+  button {
+      border-radius: 0;
+      background-color: #717171;
+      width: 70px;
+      font-size: 11px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 5px;
+      color: white;
+      border: 1px solid transparent;
+      &:hover{
+        background-color: #202020;
+        color: white;
+        border: 1px solid white;
+    }
+  }
+}

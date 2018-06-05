@@ -1,0 +1,141 @@
+.extracted-number {
+    border: 1px solid white;
+    box-shadow: 0 0 0 8px #717171;
+    height: 500px;
+    margin-right: 100px;
+    background-color: #0C683E;
+    padding: 10px;
+    position: relative;
+    .left-side {
+        height: 250px;
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        bottom: 186px;
+        left: 228px;
+        .first-five {
+            display: block;
+        }
+        #first-num {
+            position: absolute;
+            left: 25px;
+            top: 20px;
+        }
+        #second-num {
+            position: absolute;
+            left: 6px;
+            top: 64px;
+        }
+        #third-num {
+            position: absolute;
+            left: 6px;
+            top: 106px;
+        }
+        #fourth-num {
+            position: absolute;
+            left: 18px;
+            top: 151px;
+        }
+        #fifth-num {
+            position: absolute;
+            left: 55px;
+            top: 190px;
+        }
+    }
+    .drum {
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: 50px auto;
+        border: 3px solid white;
+        border-radius: 50%; 
+        overflow: hidden;
+       
+        .numbers-drum {
+            width: 210px;
+            height: 210px;
+            margin: 20px auto;
+            border-radius: 50%;
+            position: relative;
+          
+            span {
+                position: absolute;
+                left: 78px;
+                top: 73px;
+                opacity: 0.8;
+            }
+            
+            
+        }
+    }
+    .odds-and-numbers{
+   
+        .left-odds{
+         position: absolute;
+         left: 14px;
+         top: 0;
+         span {
+            display: block;
+            position: relative;
+            span {
+                position: absolute;
+                left: 40px;
+                top: 0;
+                font-weight: 500;
+            }
+            img {
+                position: absolute;
+                right: 40px;
+                top: 0;
+                width: 10px;
+                height: 10px;
+                display: block;
+            }
+         }
+        }
+        .right-odds{
+            position: absolute;
+            right: 14px;
+            top: 0;
+            span {
+               display: block;
+               position: relative;
+               span {
+                position: absolute;
+                right: 40px;
+                top: 0px;
+                font-weight: 500;
+                }
+            }
+        }
+        .middle-odds {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            justify-content: flex-end;
+            position: absolute;
+            left: 331px;
+                bottom: 14px;
+            .col-lg-4 {
+                margin: 0 5px;
+            }
+            span {
+                display: block;
+                padding: 0;
+                position: relative;
+                span {
+                 position: absolute;
+                 left: 40px;
+                 font-weight: 500;
+                 top: 0px;
+                 }
+                 
+             }
+            }
+        }
+    }
+
+
+
+

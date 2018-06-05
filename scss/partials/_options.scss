@@ -1,0 +1,41 @@
+.buttons-holder {
+    width: 50%;
+    text-align: center;
+}
+.btn-numbers {
+    width: 115px;
+    font-size: 11px;
+    margin: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: #717171;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-align: center;
+    padding: 8px;
+    &:hover{
+        background-color: #202020;
+        color: white;
+        border: 1px solid white;
+    }
+    
+}
+.color-selection {
+    position: absolute;
+    left: 126px;
+    bottom: 40px;
+    .color-class {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background-color: black;
+        margin: 5px 8px;
+        text-align: center;
+        padding: 1px;
+        cursor: pointer;
+        color: white;
+    }
+    
+}

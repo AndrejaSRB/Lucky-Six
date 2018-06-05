@@ -1,0 +1,95 @@
+.colors-number {
+    margin: 10px;
+    text-align: center;
+ span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+    text-transform: uppercase;
+    position: relative;
+    &:after{
+        border-bottom: 1px solid skyblue;
+        content: "";
+        display: block;
+        width: 75px;
+        height: 3px;
+        position: absolute;
+        left: 149px;
+        top: 22px;
+    }
+ }
+ .btn-green {
+     padding: 3px 12px;
+     background-color: #666666;
+     color: #41ba05;
+     font-weight: bold;
+     font-size: 20px;
+     &:hover{
+        background-color: #353535;
+     }
+ }
+ .btn-blue {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+ .btn-red {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+.btn-purple {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+.btn-yellow {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+.btn-orange {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+.btn-pink {
+    padding: 3px 12px;
+    background-color: #666666;
+    color: pink;
+    font-weight: bold;
+    font-size: 20px;
+    &:hover{
+       background-color: #353535;
+    }
+}
+ 
+}
